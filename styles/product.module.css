@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container div{
+    width: 300px;
+    height: 300px;
+    margin: 45px 15px;
+    background: rgb(252, 171, 151);
+}
+.title{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 1.3em;
+}
+.container div:hover{
+    background: rgb(51, 255, 0);
+    text-decoration: underline;
+}

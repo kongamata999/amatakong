@@ -1,0 +1,16 @@
+.title{
+  color: rgb(255, 0, 0);
+  text-align: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title:hover{
+  text-decoration: underline;
+}
+.Image{
+  text-align: center;
+  padding: 10px 0;
+}
